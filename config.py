@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Nayannxd/music")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SamuraiSupport")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/SamuraiSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+lHVOZvvr9NE1M2Rl")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+lHVOZvvr9NE1M2Rl")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/91b8d2e0484efd5b7d2b1.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/28fe5d8e0dcd3d7f0d016.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/733d7fe9be5c632b49397.jpg",
+    "https://te.legra.ph/file/a6392dca3359df704572e.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
@@ -130,9 +130,10 @@ if UPSTREAM_REPO:
 if PING_IMG_URL:
     if PING_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
-            PING_IMG_URL = "https://te.legra.ph/file/733d7fe9be5c632b49397.jpg"
+            PING_IMG_URL = "https://te.legra.ph/file/a6392dca3359df704572e.jpg
+"
 
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/91b8d2e0484efd5b7d2b1.jpg"
+            START_IMG_URL = "https://te.legra.ph/file/28fe5d8e0dcd3d7f0d016.jpg"
